@@ -16,6 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+// When nestedFunction was created, they have access to the variables in the myFunction scope. When myFunction runs, it looks for the external variable. But it doesn't find it in the local function scope, so it reaches out to the variable(s) in the global scope. That variable doesn't exist in its own private scope. 
 
 
 
